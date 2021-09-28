@@ -1,0 +1,45 @@
+* {
+  text-align: center;
+  }
+body {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  background-color: #EFF5F8;
+  color: #246fd1;
+}
+h2,
+h3 {
+  text-align: center;
+}
+li {
+  list-style: none;
+  margin-top: 20px;
+  display: block;
+}
+button {
+  background-color: #246fd1;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: .5em;
+  letter-spacing: 0.21px;
+  line-height: 16px;
+  max-width: 255px;
+  padding: 10px;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-property: background-color;
+  transition-timing-function: linear;
+  margin: 0.6em auto;
+}
+a {
+  text-decoration: none;
+  color: #246fd1;
+}
+.hide{
+  display: none;
+}
+/*this code is for highscore index*/
+.buttons{
+display: inline-block;
+}
